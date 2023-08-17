@@ -1,0 +1,50 @@
+245  pwv
+  246  ls -a
+  247  cd documents
+  248  cd tech
+  249  cd ctd
+  250  cd "intro informatica"
+  251  mkdir Checkpoint-AngelicaLosada
+  252  cd Checkpoint-AngelicaLosada
+  253  git init
+  254
+  255  git remote add origin https://github.com/alossada/checkpoint-AngelicaLosada.git
+  256  git branch -M main
+  257  git push -u origin main
+  258  touch main.js index.html
+  259  git status
+  260  git add .
+  261  git commit -m "commit 01 de AngelicaLosada"
+  262  git branch feature
+  263  git checkout feature
+  264  mkdir Hardware Software Seguridadinformatica
+  265  cd Hardware
+  266  touch resumen.txt
+  267  ls -a
+  268  cd ..
+  269  cd Software
+  270  touch resumen.txt
+  271  ls -a
+  272  cd ..
+  273  cd Seguridadinformatic
+  274  cd Seguridadinformatica
+  275  touch resumen,txt
+  276  git status
+  277  git add .
+  278  git status
+  279  cd ..
+  280  git status
+  281  git add .
+  282  git status
+  283  git commit -m "commit 02 de AngelicaLosada"
+  284  git push origin feature
+  285  git checkout main
+  286  git mv main.js resumenHardware.txt
+  287  git mv index.html resumenSoftware.txt
+  288  ls
+  289  ls -l resumenHardware.txt
+  290  cat resumenHardware.txt
+  291  cat resumenHardware.txt 1.photoshop 2.spotify 3.linux
+  292  cat resumenHardware.txt hola
+  293  touch comandos.txt
+  294  history
